@@ -32,7 +32,7 @@
 		  font-weight: 700;
 		}
 		a {
-		  color: #2d7788;
+		  color: #c0427c;
 		  -webkit-transition: all 0.4s ease-in-out;
 		  -moz-transition: all 0.4s ease-in-out;
 		  -ms-transition: all 0.4s ease-in-out;
@@ -58,7 +58,7 @@
 		  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 		}
 		.sidebar-wrapper {
-		  background: #42A8C0;
+		  background: #c0427c;
 		  position: absolute;
 		  right: 0;
 		  width: 240px;
@@ -167,7 +167,7 @@
 		  text-transform: uppercase;
 		  font-size: 20px;
 		  font-weight: 500;
-		  color: #2d7788;
+		  color: #c0427c;
 		  position: relative;
 		  margin-top: 0;
 		  margin-bottom: 20px;
@@ -186,7 +186,7 @@
 		  -moz-background-clip: padding;
 		  -webkit-background-clip: padding-box;
 		  background-clip: padding-box;
-		  background: #2d7788;
+		  background: #c0427c;
 		  text-align: center;
 		  padding-top: 8px;
 		  font-size: 16px;
@@ -194,7 +194,7 @@
 		  top: -2px;
 		}
 		.main-wrapper .section {
-		  margin-bottom: 60px;
+		  margin-bottom: 20px;
 		}
 		.main-wrapper .experiences-section .item {
 		  margin-bottom: 30px;
@@ -215,11 +215,11 @@
 		  position: absolute;
 		  right: 0;
 		  top: 0;
-		  color: #97AAC3;
+		  color: #c74498;
 		}
 		.main-wrapper .company {
 		  margin-bottom: 10px;
-		  color: #97AAC3;
+		  color: #c74498;
 		}
 		.main-wrapper .project-title {
 		  font-size: 16px;
@@ -248,7 +248,7 @@
 		}
 		.skillset .level-bar-inner {
 		  height: 12px;
-		  background: #7bc2d3;
+		  background: #c0427c;
 		}
 		.footer {
 		  padding: 30px;
@@ -309,7 +309,7 @@
             <div class="profile-container">
                 <img class="profile" src="https://lh3.googleusercontent.com/g6M46cbx5QsXwkd8ODZhgKYVOSRnQ_eSzdKkUJOneVeX30o6aWunqbrOu25I8Ssx3ReurPuuJ5bGfZKl88tS2wViUEcWGkN4oZLMx8MOhnjVJxJwIzQgmzc-FWHKHf3nw2uxNe_nn3YuVCHLaB8ufupBo7EzBX_vpCwUlQ-i2qdh-dkTt6aR6IuZqEJITD0c82rKS1aUxD-9_6QQtbc5g3jhQJ7vHWJz6lUQR2sPyBMyKCDGB2TkekxgHkH0CJ7eNGJSffYoicddklNAL4Ov39G4-KLDYNJJQY2_hOUeuQo3JoX7Y_uTobNfhkzkfenh2ZI9VHfO8pUOtP_ajpAF1mZryD-OegRtoyVGg4IhTM7RrhINsHljLWMddEIStKZZKh9qZSCKNFwo_FwK4ixPv-MkG5V40s_1TtVDf8qB4mDdI3CbwpbYJOUBivBq-kcP1xPoULU_vWiZFLANw2dFTpzPe7jZn4E4S1DtqKNO_j1jCAeRgn57XM2nMHosi5RCCK32Slzg0Eztk8HTxbGLbtYosxVJFbA070n-1x4W4sMei0im5MusObxN_-9Snp_uYMFRHuJ4iTtGNRWfCEAUqO8r6zS8X414lqifVDWpWwBCvGNvGVsjJQEqcY77LuYI3jaQfxYVQh6u6ZrRoJTeSan5zg=s100-no" alt="" />
                 <h1 class="name">Karthik Ruthiravelu</h1>
-                <h3 class="tagline">Full Stack Software Developer</h3>
+                <h3 class="tagline">Full Stack Developer</h3>
             </div><!--//profile-container-->
             
             <div class="contact-container container-block">
@@ -352,13 +352,14 @@
         <div class="interests-container container-block">
                 <h2 class="container-block-title">Dev Tools and Environment</h2>
                 <ul class="list-unstyled interests-list">
+					<li>Chrome Developer Tools</li>
+					<li>React and Redux Dev Tools</li>
                     <li>Visual Studio Code</li>
-                    <li>AWS Cloud9</li>
-                    <li>Git and GitHub</li>
-                    <li>Microsoft Azure Cloud</li>
-                    <li>pgAdminIII</li>
-                    <li>SquirrelSQL</li>
-                    <li>Sublime Text</li>
+                    <li>Visual Studio Enterprise</li>
+					<li>Git and GitHub</li>
+					<li>Team Foundation Server Version Control</li>
+					<li>Postman</li>
+					<li>Atlassian JIRA</li>
                 </ul>
             </div><!--//interests-->
         </div><!--//sidebar-wrapper-->
@@ -374,23 +375,37 @@
             <hr>
             <section class="section experiences-section">
                 <h2 class="section-title"><i class="fa fa-briefcase"></i>Experience</h2>
-                
+                <div class="item">
+						<div class="meta">
+							<div class="upper-row">
+								<h3 class="job-title">Full Stack Developer</h3>
+								<div class="time">Aug 2018 - Present</div>
+							</div><!--//upper-row-->
+							<div class="company">Disprz, Chennai.</div>
+						</div><!--//meta-->
+						<div class="details">
+							<p>Developed and revamped the LMS Web Application, which is the core product using .NET for the backend services and React.js for Frontend.</p>  
+							<p>Optimized and scaled several api's in the Frontend and Backend implementing best software engineering practices.</p>
+							<p>Developed HTML Emails and Several small individual web applications to cater to client needs.</p>
+						</div><!--//details-->
+					</div>
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
                             <h3 class="job-title">Software Developer</h3>
-                            <div class="time">Sep 2016 - Present</div>
+                            <div class="time">Sep 2016 - Aug 2018</div>
                         </div><!--//upper-row-->
                         <div class="company">Tata Consultancy Services, Chennai.</div>
                     </div><!--//meta-->
                     <div class="details">
-                        <p>Designed and Developed Database Models in PostgreSQL and HBase for a Retail Product Named Optumera Currently used by Leading Retailers in USA, Netherlands and Sweden.</p>  
+                        <p>Designed and Developed Database Models in PostgreSQL and HBase for a Retail Product.</p>  
                         <p>Developed Reusable Desktop Applications in Python and Java to Automate Time Consuming Testing Processes for the Developed Product. </p>
                         <p>Developed Web Application for the Internal Team to Communicate and Co-ordinate daily tasks in the Development Process.</p>
                         <p>Developed multiple applications in Python to Automate various parts of the development process.</p>
                         <p>Administrated Hadoop and PostgreSQL Database servers.</p>
                     </div><!--//details-->
-                </div><!--//item-->
+				</div><!--//item-->
+				
             <hr>
             </section><!--//section-->
             
@@ -418,11 +433,25 @@
             
             <section class="skills-section section">
                 <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
-                <div class="skillset">        
+                <div class="skillset">
+					<div class="item">
+							<h3 class="level-title">Javascript &amp; Node.js</h3>
+							<div class="level-bar">
+								<div class="level-bar-inner" data-level="90%">
+								</div>                                      
+							</div><!--//level-bar-->                                 
+					</div>
+					<div class="item">
+							<h3 class="level-title">React.js and Redux</h3>
+							<div class="level-bar">
+								<div class="level-bar-inner" data-level="90%">
+								</div>                                      
+							</div><!--//level-bar-->                                 
+						</div><!--//item-->        
                     <div class="item">
                         <h3 class="level-title">Python</h3>
                         <div class="level-bar">
-                            <div class="level-bar-inner" data-level="90%">
+                            <div class="level-bar-inner" data-level="70%">
                             </div>                                      
                         </div><!--//level-bar-->                                 
                     </div><!--//item-->
@@ -430,26 +459,11 @@
                     <div class="item">
                         <h3 class="level-title">PostgreSQL</h3>
                         <div class="level-bar">
-                            <div class="level-bar-inner" data-level="85%">
-                            </div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <h3 class="level-title">Javascript &amp; Node.js</h3>
-                        <div class="level-bar">
                             <div class="level-bar-inner" data-level="80%">
                             </div>                                      
                         </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">React.js and Redux</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="70%">
-                            </div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
+                    </div><!--//item-->             
+                    
 
                     <div class="item">
                         <h3 class="level-title">HTML5 &amp; CSS3</h3>
@@ -460,7 +474,7 @@
                     </div><!--//item-->
                     
                     <div class="item">
-                        <h3 class="level-title">Core Java</h3>
+                        <h3 class="level-title">C# &amp; .NET</h3>
                         <div class="level-bar">
                             <div class="level-bar-inner" data-level="70%">
                             </div>                                      
@@ -468,7 +482,7 @@
                     </div><!--//item-->
 
                     <div class="item">
-                        <h3 class="level-title">Unix and Shellscript</h3>
+                        <h3 class="level-title">SQL Server</h3>
                         <div class="level-bar">
                             <div class="level-bar-inner" data-level="65%">
                             </div>                                      
